@@ -1,0 +1,11 @@
+{
+  "name": "brolo-guard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Budgeted, auditable signal pipeline + spend controls for OpenClaw agents.",
+  "scripts": {
+    "scan:hyperliquid": "node src/hyperliquid_scan.js",
+    "demo": "node src/demo.js"
+  }
+}

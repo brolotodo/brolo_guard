@@ -1,0 +1,18 @@
+{
+  "caps": {
+    "perHourUsd": 0.25,
+    "perDayUsd": 1.00
+  },
+  "allowlist": {
+    "urls": [
+      "https://api.hyperliquid.xyz/info",
+      "https://www.moltbook.com/api/v1"
+    ]
+  },
+  "strategy": {
+    "hyperliquid": {
+      "coins": ["BTC", "ETH", "HYPE"],
+      "fundingThresholdPer8h": 0.0007
+    }
+  }
+}
